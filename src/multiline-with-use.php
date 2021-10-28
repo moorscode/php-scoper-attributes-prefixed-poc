@@ -4,6 +4,7 @@ namespace Some\Namespace;
 
 use JsonSerializable;
 use ReturnTypeWillChange;
+use SomethingElse;
 
 interface SomeInterface extends JsonSerializable
 {

@@ -3,7 +3,8 @@
 namespace Some\Namespace;
 
 use JsonSerializable;
-use ReturnTypeWillChange;
+use Something;
+use SomethingElse;
 
 interface SomeInterface extends JsonSerializable
 {
@@ -13,6 +14,6 @@ interface SomeInterface extends JsonSerializable
 	 *
 	 * @return array
 	 */
-	#[ReturnTypeWillChange]
+	#[Something]
 	public function jsonSerialize();
 }

@@ -3,6 +3,7 @@
 namespace Some\Namespace;
 
 use JsonSerializable;
+use SomethingElse;
 
 interface SomeInterface extends JsonSerializable
 {
