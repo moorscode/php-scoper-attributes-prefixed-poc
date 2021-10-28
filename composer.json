@@ -1,0 +1,12 @@
+{
+    "name": "moorscode/php-scoper-attributes-prefixed-poc",
+    "authors": [
+        {
+            "name": "Jip",
+            "email": "jhp.moors@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "humbug/php-scoper": "0.15.0"
+    }
+}
